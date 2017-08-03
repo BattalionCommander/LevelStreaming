@@ -1,0 +1,492 @@
+﻿Log file open, 08/03/17 09:30:55
+LogInit:Display: Running engine for game: LevelStreaming
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-907348949) SRandInit(-907348949).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.075485
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+OCULUS: Info: [CAPI] LibOVR module is located at C:\Program Files\Oculus\Support\oculus-runtime\LibOVRRT64_1.dll
+OCULUS: Debug: Connected to the server running version (prod = 1).1.14.0(build = 378771) feature version = 0. Client runs version (prod = 1).1.14.0(build = 378771) feature version = 0
+LogHMD: GearVR: Emulating GearVR using Oculus Rift!
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.03-01.30.56:307][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-01.30.56:307][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.03-01.30.56:315][  0]LogInit: Computer: TECH-PC
+[2017.08.03-01.30.56:315][  0]LogInit: User: tech
+[2017.08.03-01.30.56:315][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.03-01.30.56:315][  0]LogInit: High frequency timer resolution =3.515732 MHz
+[2017.08.03-01.30.56:315][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.08.03-01.30.56:315][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.03-01.30.56:315][  0]LogMemory: Process Physical Memory: 278.09 MB used, 278.09 MB peak
+[2017.08.03-01.30.56:315][  0]LogMemory: Process Virtual Memory: 267.66 MB used, 267.66 MB peak
+[2017.08.03-01.30.56:315][  0]LogMemory: Physical Memory: 4725.03 MB used,  11618.22 MB free, 16343.25 MB total
+[2017.08.03-01.30.56:315][  0]LogMemory: Virtual Memory: 652.54 MB used,  11618.22 MB free, 8388608.00 MB total
+[2017.08.03-01.30.56:374][  0]LogInit: Using OS detected language (zh-CN).
+[2017.08.03-01.30.56:374][  0]LogInit: Using OS detected locale (zh-CN).
+[2017.08.03-01.30.56:752][  0]LogWindowsTextInputMethodSystem:Display: IME system now activated using IMM (搜狗拼音输入).
+[2017.08.03-01.30.56:916][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.03-01.30.56:941][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.08.03-01.30.56:941][  0]LogD3D11RHI:       8084/0/7915 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.08.03-01.30.56:941][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.03-01.30.56:945][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.03-01.30.56:945][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.03-01.30.56:945][  0]LogWindows: EnumDisplayDevices:
+[2017.08.03-01.30.56:946][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.08.03-01.30.56:946][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.03-01.30.56:946][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.03-01.30.56:947][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.08.03-01.30.56:947][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.08.03-01.30.56:947][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.08.03-01.30.56:947][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.08.03-01.30.56:948][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.03-01.30.56:948][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.08.03-01.30.56:948][  0]LogD3D11RHI:   Driver Version: 378.92 (internal:21.21.13.7892, unified:378.92)
+[2017.08.03-01.30.56:948][  0]LogD3D11RHI:      Driver Date: 3-16-2017
+[2017.08.03-01.30.56:948][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.03-01.30.56:957][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.03-01.30.56:971][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.03-01.30.57:018][  0]LogShaderCompilers: Guid format shader working directory is -24 characters bigger than the processId version (../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Intermediate/Shaders/WorkingDirectory/4444/).
+[2017.08.03-01.30.57:018][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/tech/AppData/Local/Temp/UnrealShaderWorkingDir/A7B6DE1D481222BF7C6D4CACE3459E85/'.
+[2017.08.03-01.30.57:018][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.03-01.30.57:865][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.03-01.30.57:906][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.03-01.30.57:950][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.03-01.30.57:990][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.03-01.30.58:031][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.03-01.30.58:072][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.03-01.30.58:112][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.03-01.30.58:152][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.03-01.30.58:188][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.03-01.30.58:230][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.03-01.30.58:269][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.03-01.30.58:309][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.03-01.30.58:347][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.03-01.30.58:387][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.03-01.30.58:427][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.03-01.30.58:506][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.03-01.30.58:506][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.03-01.30.58:538][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.03-01.30.58:617][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.03-01.30.58:638][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.03-01.30.58:680][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.03-01.30.58:721][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.03-01.30.58:763][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.03-01.30.58:805][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.03-01.30.58:805][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.03-01.30.59:178][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache: Loaded boot cache 0.07s 90MB C:/Users/tech/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/tech/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.03-01.30.59:251][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.03-01.30.59:264][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.03-01.30.59:276][  0]LogDerivedDataCache: Using Local data cache path C:/Users/tech/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.03-01.30.59:284][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.03-01.30.59:284][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.03-01.30.59:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-01.30.59:285][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.03-01.30.59:585][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.03-01.30.59:588][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.03-01.30.59:781][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.03-01.30.59:818][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.03-01.30.59:860][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.03-01.30.59:860][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.03-01.30.59:860][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.03-01.31.00:286][  0]LogNetVersion: LevelStreaming , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1132053634)
+[2017.08.03-01.31.00:338][  0]LogAssetRegistry: FAssetRegistry took 0.0235 seconds to start up
+[2017.08.03-01.31.00:465][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 4 prioritized culture(s) in 0.110577 seconds
+[2017.08.03-01.31.00:470][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.03-01.31.00:470][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.03-01.31.00:470][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.03-01.31.00:514][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.03-01.31.02:434][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.03-01.31.02:469][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.03-01.31.02:890][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.03-01.31.03:229][  0]SourceControl: 信息 源码控制已禁用
+[2017.08.03-01.31.03:230][  0]SourceControl: 信息 源码控制已禁用
+[2017.08.03-01.31.03:267][  0]SourceControl: 信息 源码控制已禁用
+[2017.08.03-01.31.03:303][  0]SourceControl: 信息 源码控制已禁用
+[2017.08.03-01.31.03:820][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.03-01.31.04:288][  0]LogEngine: Initializing Engine...
+[2017.08.03-01.31.04:299][  0]LogHMD: Oculus plugin initialized. Version: 4.16.3-3561208+++UE4+Release-4.16, LibOVR: 1.14.0, SDK: 1.12.0, built Jul 28 2017, 11:57:22
+[2017.08.03-01.31.04:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.03-01.31.04:470][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.03-01.31.04:574][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.03-01.31.04:595][  0]LogInit: XAudio2 using 'S24D390-4 (NVIDIA High Definition Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.03-01.31.04:625][  0]LogInit: FAudioDevice initialized.
+[2017.08.03-01.31.04:658][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/tech/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.03-01.31.04:663][  0]LogInit: Texture streaming: Enabled
+[2017.08.03-01.31.04:729][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.03-01.31.04:899][  0]LogInit: Transaction tracking system initialized
+[2017.08.03-01.31.05:158][  0]BlueprintLog: New page: 编辑器加载
+[2017.08.03-01.31.05:920][  0]LocalizationService: 信息 本地化服务已被禁用
+[2017.08.03-01.31.06:463][  0]LogConsoleResponse:Display: 
+[2017.08.03-01.31.06:587][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.03-01.31.06:587][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.03-01.31.06:779][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tech/Documents/Unreal Projects/LevelStreaming/Content/' took 0.01s
+[2017.08.03-01.31.07:367][  0]SourceControl: 信息 源码控制已禁用
+[2017.08.03-01.31.07:369][  0]LogFactory: FactoryCreateFile: PackFactory with PackFactory (0 0 C:/Program Files/Epic Games/UE_4.16/FeaturePacks/StarterContent.upack)
+[2017.08.03-01.31.07:380][  0]LogPackFactory: Finished extracting 8 files (including 0 errors).
+[2017.08.03-01.31.07:384][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Floor_400x400.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Floor_400x400.uasset"
+[2017.08.03-01.31.07:387][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Pillar_50x500.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Pillar_50x500.uasset"
+[2017.08.03-01.31.07:391][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/SM_AssetPlatform.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/SM_AssetPlatform.uasset"
+[2017.08.03-01.31.07:394][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x200.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_400x200.uasset"
+[2017.08.03-01.31.07:397][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x300.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_400x300.uasset"
+[2017.08.03-01.31.07:400][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_400x400.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_400x400.uasset"
+[2017.08.03-01.31.07:403][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_500x500.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_500x500.uasset"
+[2017.08.03-01.31.07:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x300.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_Door_400x300.uasset"
+[2017.08.03-01.31.07:409][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Door_400x400.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_Door_400x400.uasset"
+[2017.08.03-01.31.07:412][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x300.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_Window_400x300.uasset"
+[2017.08.03-01.31.07:415][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Architecture/Wall_Window_400x400.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Wall_Window_400x400.uasset"
+[2017.08.03-01.31.07:419][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Collapse01.uasset"
+[2017.08.03-01.31.07:423][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse02.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Collapse02.uasset"
+[2017.08.03-01.31.07:426][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Collapse_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Collapse_Cue.uasset"
+[2017.08.03-01.31.07:429][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Explosion01.uasset"
+[2017.08.03-01.31.07:433][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion02.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Explosion02.uasset"
+[2017.08.03-01.31.07:435][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Explosion_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Explosion_Cue.uasset"
+[2017.08.03-01.31.07:442][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Fire01.uasset"
+[2017.08.03-01.31.07:445][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire01_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Fire01_Cue.uasset"
+[2017.08.03-01.31.07:450][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Fire_Sparks01.uasset"
+[2017.08.03-01.31.07:453][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Fire_Sparks01_Cue.uasset"
+[2017.08.03-01.31.07:456][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Light01.uasset"
+[2017.08.03-01.31.07:459][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light01_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Light01_Cue.uasset"
+[2017.08.03-01.31.07:462][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Light02.uasset"
+[2017.08.03-01.31.07:465][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Light02_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Light02_Cue.uasset"
+[2017.08.03-01.31.07:469][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Smoke01.uasset"
+[2017.08.03-01.31.07:471][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Smoke01_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Smoke01_Cue.uasset"
+[2017.08.03-01.31.07:474][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Background_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Background_Cue.uasset"
+[2017.08.03-01.31.07:484][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Birds01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Birds01.uasset"
+[2017.08.03-01.31.07:510][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Music01.uasset"
+[2017.08.03-01.31.07:513][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Music_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Music_Cue.uasset"
+[2017.08.03-01.31.07:523][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind05.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Wind05.uasset"
+[2017.08.03-01.31.07:531][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Starter_Wind06.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Starter_Wind06.uasset"
+[2017.08.03-01.31.07:536][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Steam01.uasset"
+[2017.08.03-01.31.07:539][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Audio/Steam01_Cue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Audio/Steam01_Cue.uasset"
+[2017.08.03-01.31.07:543][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_CeilingLight.uasset"
+[2017.08.03-01.31.07:546][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_Effect_Explosion.uasset"
+[2017.08.03-01.31.07:549][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_Effect_Fire.uasset"
+[2017.08.03-01.31.07:551][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_Effect_Smoke.uasset"
+[2017.08.03-01.31.07:554][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_Effect_Sparks.uasset"
+[2017.08.03-01.31.07:557][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_Effect_Steam.uasset"
+[2017.08.03-01.31.07:560][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Blueprint_WallSconce.uasset"
+[2017.08.03-01.31.07:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/BP_LightStudio.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/BP_LightStudio.uasset"
+[2017.08.03-01.31.07:567][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/FogBrightnessLUT.uasset"
+[2017.08.03-01.31.07:570][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/M_LightStage_Arrows.uasset"
+[2017.08.03-01.31.07:574][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Black.uasset"
+[2017.08.03-01.31.07:577][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_HDRI.uasset"
+[2017.08.03-01.31.07:580][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/M_LightStage_Skybox_Master.uasset"
+[2017.08.03-01.31.07:584][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/Skybox.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/Skybox.uasset"
+[2017.08.03-01.31.07:589][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/SM_Arrows.uasset"
+[2017.08.03-01.31.07:592][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Blueprints/Assets/SunlightColorLUT.uasset"
+[2017.08.03-01.31.07:753][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset"
+[2017.08.03-01.31.07:756][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting.umap" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/Advanced_Lighting.umap"
+[2017.08.03-01.31.07:759][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/Advanced_Lighting_BuiltData.uasset"
+[2017.08.03-01.31.07:767][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default.umap" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/Minimal_Default.umap"
+[2017.08.03-01.31.07:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/Minimal_Default_BuiltData.uasset"
+[2017.08.03-01.31.07:792][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap.umap" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/StarterMap.umap"
+[2017.08.03-01.31.07:829][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Maps/StarterMap_BuiltData.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Maps/StarterMap_BuiltData.uasset"
+[2017.08.03-01.31.07:833][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_AssetPlatform.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_AssetPlatform.uasset"
+[2017.08.03-01.31.07:836][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Floor.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Basic_Floor.uasset"
+[2017.08.03-01.31.07:839][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Basic_Wall.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Basic_Wall.uasset"
+[2017.08.03-01.31.07:842][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Brick_Clay_Beveled.uasset"
+[2017.08.03-01.31.07:845][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_New.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Brick_Clay_New.uasset"
+[2017.08.03-01.31.07:848][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Brick_Clay_Old.uasset"
+[2017.08.03-01.31.07:851][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Brick_Cut_Stone.uasset"
+[2017.08.03-01.31.07:854][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Brick_Hewn_Stone.uasset"
+[2017.08.03-01.31.07:857][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Ceramic_Tile_Checker.uasset"
+[2017.08.03-01.31.07:860][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_CobbleStone_Pebble.uasset"
+[2017.08.03-01.31.07:864][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_CobbleStone_Rough.uasset"
+[2017.08.03-01.31.07:867][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_CobbleStone_Smooth.uasset"
+[2017.08.03-01.31.07:870][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_ColorGrid_LowSpec.uasset"
+[2017.08.03-01.31.07:874][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Grime.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Concrete_Grime.uasset"
+[2017.08.03-01.31.07:877][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Panels.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Concrete_Panels.uasset"
+[2017.08.03-01.31.07:880][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Poured.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Concrete_Poured.uasset"
+[2017.08.03-01.31.07:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Concrete_Tiles.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Concrete_Tiles.uasset"
+[2017.08.03-01.31.07:886][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Glass.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Glass.uasset"
+[2017.08.03-01.31.07:890][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Grass.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Ground_Grass.uasset"
+[2017.08.03-01.31.07:893][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Gravel.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Ground_Gravel.uasset"
+[2017.08.03-01.31.07:896][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Ground_Moss.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Ground_Moss.uasset"
+[2017.08.03-01.31.07:899][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Brushed_Nickel.uasset"
+[2017.08.03-01.31.07:902][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Burnished_Steel.uasset"
+[2017.08.03-01.31.07:905][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Chrome.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Chrome.uasset"
+[2017.08.03-01.31.07:908][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Copper.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Copper.uasset"
+[2017.08.03-01.31.07:911][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Gold.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Gold.uasset"
+[2017.08.03-01.31.07:914][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Rust.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Rust.uasset"
+[2017.08.03-01.31.07:918][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Metal_Steel.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Metal_Steel.uasset"
+[2017.08.03-01.31.07:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Basalt.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Rock_Basalt.uasset"
+[2017.08.03-01.31.07:924][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Rock_Marble_Polished.uasset"
+[2017.08.03-01.31.07:927][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Sandstone.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Rock_Sandstone.uasset"
+[2017.08.03-01.31.07:930][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Rock_Slate.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Rock_Slate.uasset"
+[2017.08.03-01.31.07:934][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Tech_Checker_Dot.uasset"
+[2017.08.03-01.31.07:937][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Tech_Hex_Tile.uasset"
+[2017.08.03-01.31.07:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Tech_Hex_Tile_Pulse.uasset"
+[2017.08.03-01.31.07:943][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Tech_Panel.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Tech_Panel.uasset"
+[2017.08.03-01.31.07:947][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Lake.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Water_Lake.uasset"
+[2017.08.03-01.31.07:950][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Water_Ocean.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Water_Ocean.uasset"
+[2017.08.03-01.31.07:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Polished.uasset"
+[2017.08.03-01.31.07:958][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Wood_Floor_Walnut_Worn.uasset"
+[2017.08.03-01.31.07:962][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Oak.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Wood_Oak.uasset"
+[2017.08.03-01.31.07:965][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Pine.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Wood_Pine.uasset"
+[2017.08.03-01.31.07:968][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Materials/M_Wood_Walnut.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Materials/M_Wood_Walnut.uasset"
+[2017.08.03-01.31.07:971][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Ambient_Dust.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Ambient_Dust.uasset"
+[2017.08.03-01.31.07:975][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Explosion.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Explosion.uasset"
+[2017.08.03-01.31.07:978][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Fire.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Fire.uasset"
+[2017.08.03-01.31.07:981][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Smoke.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Smoke.uasset"
+[2017.08.03-01.31.07:984][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Sparks.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Sparks.uasset"
+[2017.08.03-01.31.07:988][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/P_Steam_Lit.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/P_Steam_Lit.uasset"
+[2017.08.03-01.31.07:991][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Burst.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Burst.uasset"
+[2017.08.03-01.31.07:993][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Dust_Particle.uasset"
+[2017.08.03-01.31.07:996][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_explosion_subUV.uasset"
+[2017.08.03-01.31.08:000][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset"
+[2017.08.03-01.31.08:003][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/m_flare_01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/m_flare_01.uasset"
+[2017.08.03-01.31.08:005][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset"
+[2017.08.03-01.31.08:008][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Radial_Gradient.uasset"
+[2017.08.03-01.31.08:011][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_radial_ramp.uasset"
+[2017.08.03-01.31.08:013][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset"
+[2017.08.03-01.31.08:016][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Particles/Materials/M_Spark.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Particles/Materials/M_Spark.uasset"
+[2017.08.03-01.31.08:020][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/MaterialSphere.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/MaterialSphere.uasset"
+[2017.08.03-01.31.08:023][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Bush.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Bush.uasset"
+[2017.08.03-01.31.08:027][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Chair.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Chair.uasset"
+[2017.08.03-01.31.08:030][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_CornerFrame.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_CornerFrame.uasset"
+[2017.08.03-01.31.08:033][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Couch.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Couch.uasset"
+[2017.08.03-01.31.08:037][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Door.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Door.uasset"
+[2017.08.03-01.31.08:040][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_DoorFrame.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_DoorFrame.uasset"
+[2017.08.03-01.31.08:042][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_GlassWindow.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_GlassWindow.uasset"
+[2017.08.03-01.31.08:046][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Lamp_Ceiling.uasset"
+[2017.08.03-01.31.08:049][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Lamp_Wall.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Lamp_Wall.uasset"
+[2017.08.03-01.31.08:060][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_MatPreviewMesh_02.uasset"
+[2017.08.03-01.31.08:063][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_PillarFrame.uasset"
+[2017.08.03-01.31.08:066][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_PillarFrame300.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_PillarFrame300.uasset"
+[2017.08.03-01.31.08:069][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Rock.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Rock.uasset"
+[2017.08.03-01.31.08:072][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Shelf.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Shelf.uasset"
+[2017.08.03-01.31.08:074][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Stairs.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Stairs.uasset"
+[2017.08.03-01.31.08:079][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_Statue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_Statue.uasset"
+[2017.08.03-01.31.08:084][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_TableRound.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_TableRound.uasset"
+[2017.08.03-01.31.08:086][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/SM_WindowFrame.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/SM_WindowFrame.uasset"
+[2017.08.03-01.31.08:090][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Bush.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Bush.uasset"
+[2017.08.03-01.31.08:093][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Chair.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Chair.uasset"
+[2017.08.03-01.31.08:095][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Door.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Door.uasset"
+[2017.08.03-01.31.08:098][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Frame.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Frame.uasset"
+[2017.08.03-01.31.08:101][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Lamp.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Lamp.uasset"
+[2017.08.03-01.31.08:104][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_MaterialSphere.uasset"
+[2017.08.03-01.31.08:107][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_MaterialSphere_Plain.uasset"
+[2017.08.03-01.31.08:110][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Rock.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Rock.uasset"
+[2017.08.03-01.31.08:112][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Shelf.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Shelf.uasset"
+[2017.08.03-01.31.08:115][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_Statue.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_Statue.uasset"
+[2017.08.03-01.31.08:118][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_StatueGlass.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_StatueGlass.uasset"
+[2017.08.03-01.31.08:121][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Props/Materials/M_TableRound.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Props/Materials/M_TableRound.uasset"
+[2017.08.03-01.31.08:124][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cone.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Cone.uasset"
+[2017.08.03-01.31.08:127][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cube.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Cube.uasset"
+[2017.08.03-01.31.08:129][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Cylinder.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Cylinder.uasset"
+[2017.08.03-01.31.08:133][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_NarrowCapsule.uasset"
+[2017.08.03-01.31.08:135][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Pipe.uasset"
+[2017.08.03-01.31.08:139][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_180.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Pipe_180.uasset"
+[2017.08.03-01.31.08:141][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Pipe_90.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Pipe_90.uasset"
+[2017.08.03-01.31.08:144][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Plane.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Plane.uasset"
+[2017.08.03-01.31.08:147][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_QuadPyramid.uasset"
+[2017.08.03-01.31.08:151][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Sphere.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Sphere.uasset"
+[2017.08.03-01.31.08:155][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Torus.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Torus.uasset"
+[2017.08.03-01.31.08:158][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Trim.uasset"
+[2017.08.03-01.31.08:160][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Trim_90_In.uasset"
+[2017.08.03-01.31.08:163][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Trim_90_Out.uasset"
+[2017.08.03-01.31.08:166][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_TriPyramid.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_TriPyramid.uasset"
+[2017.08.03-01.31.08:169][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Tube.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Tube.uasset"
+[2017.08.03-01.31.08:172][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_A.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Wedge_A.uasset"
+[2017.08.03-01.31.08:175][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_Wedge_B.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_Wedge_B.uasset"
+[2017.08.03-01.31.08:178][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Shapes/Shape_WideCapsule.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Shapes/Shape_WideCapsule.uasset"
+[2017.08.03-01.31.08:206][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_Beveled_D.uasset"
+[2017.08.03-01.31.08:234][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_Beveled_M.uasset"
+[2017.08.03-01.31.08:261][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_Beveled_N.uasset"
+[2017.08.03-01.31.08:284][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_New_D.uasset"
+[2017.08.03-01.31.08:314][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_New_M.uasset"
+[2017.08.03-01.31.08:339][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_New_N.uasset"
+[2017.08.03-01.31.08:370][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_Old_D.uasset"
+[2017.08.03-01.31.08:406][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Clay_Old_N.uasset"
+[2017.08.03-01.31.08:525][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Cut_Stone_D.uasset"
+[2017.08.03-01.31.08:547][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Cut_Stone_N.uasset"
+[2017.08.03-01.31.08:569][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Hewn_Stone_D.uasset"
+[2017.08.03-01.31.08:588][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Hewn_Stone_M.uasset"
+[2017.08.03-01.31.08:615][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Brick_Hewn_Stone_N.uasset"
+[2017.08.03-01.31.08:618][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Burst_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Burst_M.uasset"
+[2017.08.03-01.31.08:623][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Bush_D.uasset"
+[2017.08.03-01.31.08:627][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Bush_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Bush_N.uasset"
+[2017.08.03-01.31.08:631][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ceramic_Tile_M.uasset"
+[2017.08.03-01.31.08:634][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ceramic_Tile_N.uasset"
+[2017.08.03-01.31.08:639][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Chair_M.uasset"
+[2017.08.03-01.31.08:649][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Chair_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Chair_N.uasset"
+[2017.08.03-01.31.08:652][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Checker_Noise_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Checker_Noise_M.uasset"
+[2017.08.03-01.31.08:688][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Pebble_D.uasset"
+[2017.08.03-01.31.08:695][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Pebble_M.uasset"
+[2017.08.03-01.31.08:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Pebble_N.uasset"
+[2017.08.03-01.31.08:743][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Rough_D.uasset"
+[2017.08.03-01.31.08:754][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Rough_N.uasset"
+[2017.08.03-01.31.08:772][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Smooth_D.uasset"
+[2017.08.03-01.31.08:790][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Smooth_M.uasset"
+[2017.08.03-01.31.08:814][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_CobbleStone_Smooth_N.uasset"
+[2017.08.03-01.31.08:843][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Grime_D.uasset"
+[2017.08.03-01.31.08:866][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Panels_D.uasset"
+[2017.08.03-01.31.08:884][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Panels_N.uasset"
+[2017.08.03-01.31.08:917][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Poured_D.uasset"
+[2017.08.03-01.31.08:941][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Poured_N.uasset"
+[2017.08.03-01.31.08:956][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Tiles_D.uasset"
+[2017.08.03-01.31.08:974][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Tiles_M.uasset"
+[2017.08.03-01.31.08:992][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Tiles_N.uasset"
+[2017.08.03-01.31.08:995][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Concrete_Tiles_Variation_M.uasset"
+[2017.08.03-01.31.09:007][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Detail_Rocky_N.uasset"
+[2017.08.03-01.31.09:012][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Door_M.uasset"
+[2017.08.03-01.31.09:019][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Door_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Door_N.uasset"
+[2017.08.03-01.31.09:022][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Dust_Particle_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Dust_Particle_D.uasset"
+[2017.08.03-01.31.09:034][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Explosion_SubUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Explosion_SubUV.uasset"
+[2017.08.03-01.31.09:039][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_SubUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Fire_SubUV.uasset"
+[2017.08.03-01.31.09:044][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Fire_Tiled_D.uasset"
+[2017.08.03-01.31.09:048][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Frame_M.uasset"
+[2017.08.03-01.31.09:055][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Frame_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Frame_N.uasset"
+[2017.08.03-01.31.09:058][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Gradinet_01.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Gradinet_01.uasset"
+[2017.08.03-01.31.09:092][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ground_Grass_D.uasset"
+[2017.08.03-01.31.09:123][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Grass_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ground_Grass_N.uasset"
+[2017.08.03-01.31.09:152][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ground_Gravel_D.uasset"
+[2017.08.03-01.31.09:174][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ground_Gravel_N.uasset"
+[2017.08.03-01.31.09:209][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_ground_Moss_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_ground_Moss_D.uasset"
+[2017.08.03-01.31.09:235][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Ground_Moss_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Ground_Moss_N.uasset"
+[2017.08.03-01.31.09:240][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Lamp_M.uasset"
+[2017.08.03-01.31.09:249][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Lamp_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Lamp_N.uasset"
+[2017.08.03-01.31.09:281][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_MacroVariation.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_MacroVariation.uasset"
+[2017.08.03-01.31.09:307][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Aluminum_D.uasset"
+[2017.08.03-01.31.09:332][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Copper_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Copper_D.uasset"
+[2017.08.03-01.31.09:355][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Gold_D.uasset"
+[2017.08.03-01.31.09:366][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Gold_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Gold_N.uasset"
+[2017.08.03-01.31.09:393][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Rust_D.uasset"
+[2017.08.03-01.31.09:414][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Rust_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Rust_N.uasset"
+[2017.08.03-01.31.09:427][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Steel_D.uasset"
+[2017.08.03-01.31.09:443][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Metal_Steel_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Metal_Steel_N.uasset"
+[2017.08.03-01.31.09:466][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Perlin_Noise_M.uasset"
+[2017.08.03-01.31.09:478][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_RockMesh_M.uasset"
+[2017.08.03-01.31.09:498][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_RockMesh_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_RockMesh_N.uasset"
+[2017.08.03-01.31.09:522][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Basalt_D.uasset"
+[2017.08.03-01.31.09:544][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Basalt_N.uasset"
+[2017.08.03-01.31.09:563][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Marble_Polished_D.uasset"
+[2017.08.03-01.31.09:591][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Sandstone_D.uasset"
+[2017.08.03-01.31.09:614][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Sandstone_N.uasset"
+[2017.08.03-01.31.09:647][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Slate_D.uasset"
+[2017.08.03-01.31.09:677][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Slate_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Slate_N.uasset"
+[2017.08.03-01.31.09:707][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Rock_Smooth_Granite_D.uasset"
+[2017.08.03-01.31.09:712][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Shelf_M.uasset"
+[2017.08.03-01.31.09:719][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Shelf_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Shelf_N.uasset"
+[2017.08.03-01.31.09:722][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Single_Tile_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Single_Tile_N.uasset"
+[2017.08.03-01.31.09:731][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_SubUV.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Smoke_SubUV.uasset"
+[2017.08.03-01.31.09:734][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Smoke_Tiled_D.uasset"
+[2017.08.03-01.31.09:737][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Spark_Core.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Spark_Core.uasset"
+[2017.08.03-01.31.09:741][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Statue_M.uasset"
+[2017.08.03-01.31.09:745][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Statue_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Statue_N.uasset"
+[2017.08.03-01.31.09:751][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_TableRound_M.uasset"
+[2017.08.03-01.31.09:758][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_TableRound_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_TableRound_N.uasset"
+[2017.08.03-01.31.09:761][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Dot_M.uasset"
+[2017.08.03-01.31.09:764][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Dot_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Dot_N.uasset"
+[2017.08.03-01.31.09:770][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Hex_Tile_M.uasset"
+[2017.08.03-01.31.09:774][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Hex_Tile_N.uasset"
+[2017.08.03-01.31.09:780][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Panel_M.uasset"
+[2017.08.03-01.31.09:791][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Tech_Panel_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Tech_Panel_N.uasset"
+[2017.08.03-01.31.09:798][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Water_M.uasset"
+[2017.08.03-01.31.09:808][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Water_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Water_N.uasset"
+[2017.08.03-01.31.09:823][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Floor_Walnut_D.uasset"
+[2017.08.03-01.31.09:835][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Floor_Walnut_M.uasset"
+[2017.08.03-01.31.09:846][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Floor_Walnut_N.uasset"
+[2017.08.03-01.31.09:865][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Oak_D.uasset"
+[2017.08.03-01.31.09:883][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Oak_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Oak_N.uasset"
+[2017.08.03-01.31.09:909][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Pine_D.uasset"
+[2017.08.03-01.31.09:921][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Pine_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Pine_N.uasset"
+[2017.08.03-01.31.09:940][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Walnut_D.uasset"
+[2017.08.03-01.31.09:953][  0]LogPackFactory: Copied "../../../Samples/StarterContent/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset" to "../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Textures/T_Wood_Walnut_N.uasset"
+[2017.08.03-01.31.10:026][  0]LogRenderer: Reallocating scene render targets to support 256x256 NumSamples 1 (Frame:1).
+[2017.08.03-01.31.10:140][  0]LogSavePackage: Save=10.97ms
+[2017.08.03-01.31.10:140][  0]LogSavePackage: Moving '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Saved/Floor_400x400423849184272EB70EA4F20BAC24FBAEA.tmp' to '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Floor_400x400.uasset'
+[2017.08.03-01.31.10:147][  0]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/StarterContent/Architecture/Floor_400x400.uasset
+[2017.08.03-01.31.10:148][  0]LogFeaturePack:Warning: Inserted 1 feature packs
+[2017.08.03-01.31.10:149][  0]Cmd: MAP LOAD FILE="../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.03-01.31.10:149][  0]LightingResults: New page: 光照构建
+[2017.08.03-01.31.10:183][  0]MapCheck: New page: 地图检测
+[2017.08.03-01.31.10:183][  0]LightingResults: New page: 光照构建
+[2017.08.03-01.31.10:730][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.08.03-01.31.10:742][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.03-01.31.10:752][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.03-01.31.10:781][  0]MapCheck: 信息 地图检测完成：0个错误，0 个警告，用时29.363毫秒完成。
+[2017.08.03-01.31.10:781][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.632
+[2017.08.03-01.31.10:928][  0]LogCollectionManager: Loaded 0 collections in 0.000870 seconds
+[2017.08.03-01.31.11:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tech/Documents/Unreal Projects/LevelStreaming/Saved/Collections/' took 0.01s
+[2017.08.03-01.31.11:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tech/Documents/Unreal Projects/LevelStreaming/Content/Developers/tech/Collections/' took 0.01s
+[2017.08.03-01.31.11:019][  0]LogFileCache: Scanning file cache for directory 'C:/Users/tech/Documents/Unreal Projects/LevelStreaming/Content/Collections/' took 0.01s
+[2017.08.03-01.31.11:019][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.03-01.31.11:027][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2329 classes and 491 folders.
+[2017.08.03-01.31.11:081][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.03-01.31.11:102][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.08.03-01.31.11:147][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.03-01.31.11:210][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.03-01.31.11:216][  0]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.03-01.31.11:221][  0]LogSlate: Took 0.002254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.03-01.31.11:222][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.03-01.31.11:227][  0]LogSlate: Took 0.000748 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.03-01.31.11:264][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.08.03-01.31.11:303][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-01.31.11:425][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.08.03-01.31.11:425][  0]LogLoad: (Engine Initialization) Total time: 16.92 seconds
+[2017.08.03-01.31.11:425][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.08.03-01.31.11:425][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.03-01.31.11:438][  0]LogOcInput: OculusInput pre-init called
+[2017.08.03-01.31.11:449][  0]LogOcInput: OculusInput is initialized. Init status 0. Runtime version: 1.14.0
+[2017.08.03-01.31.11:449][  0]LogHMD: Starting GearVRController plugin
+[2017.08.03-01.31.11:463][  0]LogAssetRegistry: Asset discovery search completed in 11.1456 seconds
+[2017.08.03-01.31.11:464][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.08.03-01.31.11:464][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.08.03-01.31.11:465][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.03-02.01.01:786][593]LogSlate: Took 0.000082 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.03-02.01.01:910][593]LogSavePackage: Save=95.04ms
+[2017.08.03-02.01.01:910][593]LogSavePackage: Moving '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Saved/ThirdPersonExampleMap73399F9E49BF2F010F1271A5AE6DE15E.tmp' to '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2017.08.03-02.01.01:914][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2017.08.03-02.01.02:076][593]LogSavePackage: Save=144.36ms
+[2017.08.03-02.01.02:077][593]LogSavePackage: Moving '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Saved/ThirdPersonExampleMap_BuiltData8D86D94A42FE3AF2295635AEBB6F9DEB.tmp' to '../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2017.08.03-02.01.02:080][593]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/tech/Documents/Unreal Projects/LevelStreaming/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
